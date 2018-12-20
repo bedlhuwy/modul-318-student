@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B88B904-11B5-45E1-B5A8-C5EDDA44768C}</ProjectGuid>
+    <ProjectGuid>{72300E3A-69FA-4329-ACDF-4964E658D53A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>modul_318_student</RootNamespace>
-    <AssemblyName>modul-318-student</AssemblyName>
+    <RootNamespace>Fahrplan.cs</RootNamespace>
+    <AssemblyName>Fahrplan.cs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,14 +48,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Abfahrstafel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Abfahrstafel.Designer.cs">
+      <DependentUpon>Abfahrstafel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="E-mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E-mail.Designer.cs">
+      <DependentUpon>E-mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs" />
+    <Compile Include="Fahrplan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fahrplan.Designer.cs">
+      <DependentUpon>Fahrplan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Abfahrstafel.resx">
+      <DependentUpon>Abfahrstafel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail.resx">
+      <DependentUpon>E-mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fahrplan.resx">
+      <DependentUpon>Fahrplan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +87,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,6 +105,10 @@
     <ProjectReference Include="..\src\SwissTransport\SwissTransport.csproj">
       <Project>{d0262178-a48f-4de0-807b-e76b63e39421}</Project>
       <Name>SwissTransport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\tests\SwissTransportTest\SwissTransportTest.csproj">
+      <Project>{959c6e54-5b1c-40f5-938a-c57b17451421}</Project>
+      <Name>SwissTransportTest</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

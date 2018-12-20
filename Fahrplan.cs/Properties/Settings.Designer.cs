@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace modul_318_student.Properties
+namespace Fahrplan.cs.Properties
 {
 
 
