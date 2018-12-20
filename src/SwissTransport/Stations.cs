@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 namespace SwissTransport
 {
+
     public class Coordinate
     {
         [JsonProperty("type")]
