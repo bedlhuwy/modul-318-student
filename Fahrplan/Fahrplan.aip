@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="15.5.1" version="15.5.1" Modules="simple" RootPath="." Language="en" Id="{849B3B0A-74C7-401B-A495-AF2D59D94A45}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Fahrplan.cs.exe" Value="..\Fahrplan.cs\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Fahrplan.cs.exe.config" Value="..\Fahrplan.cs\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" Value="..\..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\PublicAssemblies"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1" Value="..\..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\PublicAssemblies"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\packages\Newtonsoft.Json.12.0.1\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_1" Value="..\packages\Newtonsoft.Json.12.0.1\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_2" Value="..\packages\Newtonsoft.Json.12.0.1\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SwissTransport.dll" Value="..\src\SwissTransport\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SwissTransport.dll_1" Value="..\src\SwissTransport\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SwissTransportTest.dll" Value="..\tests\SwissTransportTest\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SwissTransportTest.dll_1" Value="..\tests\SwissTransportTest\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe" Value="Fahrplan.cs.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe.config" Value="Fahrplan.cs.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" Value="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1" Value="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_2" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll" Value="SwissTransport.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll_1" Value="SwissTransport.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll" Value="SwissTransportTest.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll_1" Value="SwissTransportTest.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="ov_1.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="Fahrplan"/>
+    <ROW Property="ProductCode" Value="1033:{38472EE1-4263-42C8-A1E2-2217DD1AA070} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Fahrplan"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{7DF82B0A-8D9B-4D83-B6F7-AAA5BEB6FAC0}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="Fahrplan.cs_Dir" Directory_Parent="APPDIR" DefaultDir="Fahrplan.cs"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="SwissTransportTest_Dir" Directory_Parent="APPDIR" DefaultDir="SWISST~2|SwissTransportTest"/>
+    <ROW Directory="SwissTransport_Dir" Directory_Parent="APPDIR" DefaultDir="SWISST~1|SwissTransport"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Fahrplan.cs_PrimaryOutput" ComponentId="{F7FC5E3D-114C-4126-8B77-9AC99C7754F4}" Directory_="Fahrplan.cs_Dir" Attributes="0" KeyPath="Fahrplan.cs.exe"/>
+    <ROW Component="Fahrplan.cs_References" ComponentId="{E10FAD0A-10CE-4506-A879-8D348063A9B2}" Directory_="Fahrplan.cs_Dir" Attributes="0" KeyPath="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{EE396295-A8ED-49F3-9D6A-BE2C9B1058C3}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{AA67AAA6-7262-4E4C-8F9D-E534C7B0518B}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SwissTransportTest_PrimaryOutput" ComponentId="{A6374427-2BC0-4EDB-AABE-E56A1EF7972B}" Directory_="SwissTransportTest_Dir" Attributes="0" KeyPath="SwissTransportTest.dll_1"/>
+    <ROW Component="SwissTransportTest_References" ComponentId="{EE71BABE-CBDF-489E-8422-22FB24E7C7D3}" Directory_="SwissTransportTest_Dir" Attributes="0" KeyPath="Newtonsoft.Json.dll_2"/>
+    <ROW Component="SwissTransport_PrimaryOutput" ComponentId="{B922C002-D4D0-45AA-998C-82D1E6364905}" Directory_="SwissTransport_Dir" Attributes="0" KeyPath="SwissTransport.dll_1"/>
+    <ROW Component="SwissTransport_References" ComponentId="{38C88C86-D7B1-41D0-A4F4-299D909B6A68}" Directory_="SwissTransport_Dir" Attributes="0" KeyPath="Newtonsoft.Json.dll_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Fahrplan.cs_PrimaryOutput Fahrplan.cs_References ProductInformation SHORTCUTDIR SwissTransportTest_PrimaryOutput SwissTransportTest_References SwissTransport_PrimaryOutput SwissTransport_References"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Fahrplan.cs.exe" Component_="Fahrplan.cs_PrimaryOutput" FileName="FAHRPL~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Fahrplan.cs.exe&gt;" SelfReg="false" NextFile="Fahrplan.cs.exe.config" DigSign="true"/>
+    <ROW File="Fahrplan.cs.exe.config" Component_="Fahrplan.cs_PrimaryOutput" FileName="FAHRPL~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Fahrplan.cs.exe.config&gt;" SelfReg="false" NextFile="SwissTransport.dll"/>
+    <ROW File="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" Component_="Fahrplan.cs_References" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll&gt;" SelfReg="false" NextFile="SwissTransport.dll_1"/>
+    <ROW File="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1" Component_="SwissTransportTest_References" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1&gt;" SelfReg="false" NextFile="Newtonsoft.Json.dll_2"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Fahrplan.cs_References" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false" NextFile="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"/>
+    <ROW File="Newtonsoft.Json.dll_1" Component_="SwissTransport_References" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_1&gt;" SelfReg="false" NextFile="SwissTransportTest.dll_1"/>
+    <ROW File="Newtonsoft.Json.dll_2" Component_="SwissTransportTest_References" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_2&gt;" SelfReg="false"/>
+    <ROW File="SwissTransport.dll" Component_="Fahrplan.cs_References" FileName="SWISST~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SwissTransport.dll&gt;" SelfReg="false" NextFile="SwissTransportTest.dll"/>
+    <ROW File="SwissTransport.dll_1" Component_="SwissTransport_PrimaryOutput" FileName="SWISST~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SwissTransport.dll_1&gt;" SelfReg="false" NextFile="Newtonsoft.Json.dll_1"/>
+    <ROW File="SwissTransportTest.dll" Component_="Fahrplan.cs_References" FileName="SWISST~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SwissTransportTest.dll&gt;" SelfReg="false" NextFile="Newtonsoft.Json.dll"/>
+    <ROW File="SwissTransportTest.dll_1" Component_="SwissTransportTest_PrimaryOutput" FileName="SWISST~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SwissTransportTest.dll_1&gt;" SelfReg="false" NextFile="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Fahrplan.cs.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_Fahrplan.cs.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Fahrplan.cs.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_Fahrplan.cs.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_Fahrplan.cs.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SwissTransport.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_SwissTransport.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SwissTransport.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_SwissTransport.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransport.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SwissTransportTest.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_SwissTransportTest.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SwissTransportTest.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_SwissTransportTest.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_SwissTransportTest.dll_1]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="ov_1.exe" SourcePath="..\..\ov.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Fahrplan.cs" Directory_="SHORTCUTDIR" Name="Fahrplan.cs" Component_="Fahrplan.cs_PrimaryOutput" Target="[#Fahrplan.cs.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="VFahrplan" Directory_="SHORTCUTDIR" Name="ÖVFAHR~1|ÖV Fahrplan" Component_="Fahrplan.cs_PrimaryOutput" Target="[#Fahrplan.cs.exe]" Hotkey="0" Icon_="ov_1.exe" IconIndex="0" ShowCmd="1" WkDir="Fahrplan.cs_Dir"/>
+    <ROW Shortcut="VFahrplan_1" Directory_="DesktopFolder" Name="ÖVFAHR~1|ÖV Fahrplan" Component_="Fahrplan.cs_PrimaryOutput" Target="[#Fahrplan.cs.exe]" Hotkey="0" Icon_="ov_1.exe" IconIndex="0" ShowCmd="1" WkDir="Fahrplan.cs_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="PrimaryOutput" OutputFile="Fahrplan.cs.exe" OutputFileShortcut="VFahrplan"/>
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="PrimaryOutput" OutputFile="Fahrplan.cs.exe.config"/>
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="References" OutputFile="SwissTransport.dll"/>
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="References" OutputFile="SwissTransportTest.dll"/>
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="References" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{72300e3a-69fa-4329-acdf-4964e658d53a}" ProjectName="Fahrplan.cs" OutputGroup="References" OutputFile="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll"/>
+    <ROW ProjectId="{d0262178-a48f-4de0-807b-e76b63e39421}" ProjectName="SwissTransport" OutputGroup="PrimaryOutput" OutputFile="SwissTransport.dll_1"/>
+    <ROW ProjectId="{d0262178-a48f-4de0-807b-e76b63e39421}" ProjectName="SwissTransport" OutputGroup="References" OutputFile="Newtonsoft.Json.dll_1"/>
+    <ROW ProjectId="{959c6e54-5b1c-40f5-938a-c57b17451421}" ProjectName="SwissTransportTest" OutputGroup="PrimaryOutput" OutputFile="SwissTransportTest.dll_1"/>
+    <ROW ProjectId="{959c6e54-5b1c-40f5-938a-c57b17451421}" ProjectName="SwissTransportTest" OutputGroup="References" OutputFile="Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll_1"/>
+    <ROW ProjectId="{959c6e54-5b1c-40f5-938a-c57b17451421}" ProjectName="SwissTransportTest" OutputGroup="References" OutputFile="Newtonsoft.Json.dll_2"/>
+  </COMPONENT>
+</DOCUMENT>

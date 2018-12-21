@@ -112,7 +112,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(41, 111);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(612, 201);
+            this.dataGridView1.Size = new System.Drawing.Size(462, 201);
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.TabStop = false;
             // 
@@ -148,7 +148,7 @@
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(858, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(708, 36);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -176,7 +176,7 @@
             // 
             this.btnClear.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClear.Location = new System.Drawing.Point(659, 188);
+            this.btnClear.Location = new System.Drawing.Point(509, 156);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(156, 39);
             this.btnClear.TabIndex = 5;
@@ -188,7 +188,7 @@
             // 
             this.btnWeiterleiten.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnWeiterleiten.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnWeiterleiten.Location = new System.Drawing.Point(659, 111);
+            this.btnWeiterleiten.Location = new System.Drawing.Point(509, 111);
             this.btnWeiterleiten.Name = "btnWeiterleiten";
             this.btnWeiterleiten.Size = new System.Drawing.Size(156, 39);
             this.btnWeiterleiten.TabIndex = 6;
@@ -200,7 +200,7 @@
             // 
             this.btnschliessen.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnschliessen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnschliessen.Location = new System.Drawing.Point(659, 273);
+            this.btnschliessen.Location = new System.Drawing.Point(509, 201);
             this.btnschliessen.Name = "btnschliessen";
             this.btnschliessen.Size = new System.Drawing.Size(156, 39);
             this.btnschliessen.TabIndex = 4;
@@ -236,7 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(858, 379);
+            this.ClientSize = new System.Drawing.Size(708, 379);
             this.Controls.Add(this.dtZeit);
             this.Controls.Add(this.dtDatum);
             this.Controls.Add(this.btnschliessen);
